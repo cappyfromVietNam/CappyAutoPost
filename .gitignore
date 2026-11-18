@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CappyAutoPost Private Database & Runtime data (Zero Data Leak)
+*.db
+*.sqlite
+*.sqlite3
+cappy_autopost.db
+cappy_autopost.db-wal
+cappy_autopost.db-shm
+
+# Caches & Local Browser profiles
+.cache/
+logs/
+*.log
+
+# PyInstaller / Distribution builds
+build/
+dist/
+*.spec
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Agent & Local configs
+.agents/
+.idea/
+.vscode/
+*.local
+.env
